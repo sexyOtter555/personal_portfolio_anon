@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Anonymous Otter</title>
+    <link rel="stylesheet" href="project.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+  </head>
+
+  <body class="text-white">
+    <div id="navigation-bar" class="container sticky-top navbar-light bg-black">
+      <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="index.html"><h5>Anonymous Otter</h5></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#section-options"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="section-options">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">about</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <img src="assets/personas/cvsHeader.png" width="100%" class="col align-self-center" />
+      </div>
+  </div>
+    <div id="project-pg" class="container">
+      <div class="row">
+        <div id="project-summary" class="col-md-3">
+          <h4>Personas and Storyboards</h4>
+          <p>
+            Observed real users interacting with the CVS self-checkout interface, interviewed these 
+            individuals about their experiences, created personas based on these users, 
+            and illustrated a storyboard for one of the personas
+          </p>
+
+          <div class="btn btn-outline-primary disabled">User Research</div>
+        </div>
+        <div id="project-descrip" class="col-12 col-md-9">
+          <h4>Introduction</h4>
+          <p>
+            At the beginning of my UI/UX course, we learned about different methods of
+            gathering research about user experiences. For this project, we were to choose
+            an interface that could be improved and observe users in order to develop
+            personas and a storyboard around that interface.
+          </p>
+          <h4>Context</h4>
+          <p>
+            I chose to observe people's interactions with the CVS self-checkout machine CVS Pharmacy began to 
+            install new Toshiba Self-Checkout System 7 modular solutions across their stores in late 2019. I stepped into the 
+            user’s shoes and explore how they interact with the interface.
+          </p>
+          
+          <br />
+
+          <div class="row">
+            <div class="images col-md-6">
+              <img src="assets/personas/interfaceSketch.jpeg" class="img-fluid" />
+            </div>
+            <div class="col-md-6">
+              <p>The CVS Checkout Interface aims to help customers self-checkout in lieu of staff checkout. Customers are allowed to scan their items, and checkout using the POS machine supported methods.</p>
+              <p>It has two key components: the left main screen, and a POS machine on the right. The left half screen of the touch screen is a real-time digital receipt of the items a customer has scanned, and the right half contains a graphic demonstration of how the user should proceed, and a a block of buttons that prompt the user to continue, finish and pay, cancel, ask for help, etc. </p>
+              <p>The POS machine mainly contains a screen and a keyboard: the screen shows the total amount to pay and prompts the user to checkout. The keyboard has numbers 0-9 and three buttons that represent cancel, approve, and go back respectively.  </p>
+            </div>
+          </div>
+         
+          <br />
+          <h4>Questionnaire and Research</h4>
+          <p>
+            I first observed 5 users' interaction with the CVS self-checkout machine, and found out the following:
+            <ul>
+              <li> Users get prompted to start scanning items very smoothly</li>
+              <li>Users attempt but fail at cancelling items they don’t want after scanning</li>
+              <li> Seem confused and startled when the machine keeps prompting the user to place the item in the bagging area</li>
+              <li>   Forget to put in phone number first and doing don’t get prompted to do it again after they click “finish and pay“</li>
+               <li>  Attempt to scan items by flipping the item and scanning in different angles and directions facing the scanner</li>
+              <li> Don’t know when to scan coupon</li>
+              </ul>
+          </p>
+          <p>
+            Then, I asked my 5 users to answer the following questions:
+          </p>
+          <ol>
+            <li>Please indicate the frequency that you shop at CVS</li>
+           
+            <li>Please indicate the frequency that you use self-checkout at CVS</li>
+           
+            <li>If you used CVS self-checkout machine for your last checkout, about how many minutes did it take to to checkout?</li>
+          
+            <li>To what extent have the CVS self-checkout machine prompts led you through your checkout process smoothly?</li>
+        
+            <li>Which of the following processes did you have problem with? (initiating self-checkout, finding bar code, scanning bar code, placing item in the bagging area, scan CVS care card, apply coupon, ask for staff help, proceed to checkout, obtain receipt, undo a command, Other: Please specify)</li>
+            <li>Which of the following best describe your emotions when using the self-checkout machine? </li>
+            <li>In your opinion, how effective is the CVS self-checkout machine overall?</li>
+          </ol>
+
+          <p>After analyzing user responses to the questionnaire, I've noticed:</p>
+          <ul>
+            <li>
+              More than half of the participants reported to feel<b>anxious</b> and <b>embarrassed</b> when using the CVS self-checkout machine
+            </li>
+            <li>
+              All but one customer reported to have used CVS self-checkout machine at their last checkout, and the <b>average frequency</b> is above <b>86%</b>
+            </li>
+            <li>
+              Even though participants reported having problems mostly with <b>“scanning bar code“, “scanning cvs card“, 
+                “applying coupon“, and “undo a command“</b>,  they rated the overall efficacy to be <b>“Somewhat effective“ to “Very effective“ </b>
+            </li>
+            
+          </ul>
+
+         
+          <br />
+          <h4>Empathy Maps</h4>
+          <p>
+            Using the data collected during my observations and interviews, I constructed
+            2 personas with empathy maps that describe what they think, feel, say, and do.
+          </p>
+          <div class="row">
+            <div class="images col-md-6">
+              <img src="assets/personas/empathy1.png" class="img-fluid" />
+            </div>
+            <div class="col-md-6">
+              <p><b>Emily</b></p>
+              <ul>
+                <li>
+                  Young profession living in the Providence area in natural science research
+                </li>
+                <li>She faces a problem with placing the item in the bagging area and finding the bar code</li>
+                <li>
+                  Emily represents almost half of the demographic of the customers of CVS on Thayer. 
+                  These young professionals I studied usually shop online and have little time for in-store shopping. 
+                  When it comes to shopping in CVS, they prefer to use the self-checkout machine as that is what they
+                   are normally used to doing at home. However, this casts a problem on looking for the bar codes on the items 
+                   and the unfamiliarity of the interface, i.e., not knowing where the bagging area is and how the interface works.
+                </li>
+              </ul>
+                
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="images col-md-6">
+              <img src="assets/personas/empathy2.png" class="img-fluid" />
+            </div>
+            <div class="col-md-6">
+              <p><b>Jason</b></p>
+              <ul>
+                
+                <li>Student athlete at Brown studying Economics</li>
+                <li>He faces a problem with cancelling the item he does not want anymore, and applying the in store discount that</li>
+                <li>Jason represents the other half of the demographic of the customers of CVS on Thayer - Brown students, 
+                  with half of the interviewees being athletes since it is close to the OMAC training room. These students are usually 
+                  in a rush to class or training, and feel embarrassed for having others wait. They also feel embarrassed asking for help
+                   on pricing since most other customers waiting in line are also from Brown. Jason’s are generally familiar with the interface, 
+                   but they face issues with problems with the item price setting, and cancelling items, since these are built-in features of the interface.
+                </li>
+
+
+              </ul>
+            </div>
+          </div>
+          <br />
+
+          <h4>Storyboard</h4>
+          <p>
+            Finally, using Jason as the main persona, I created the following storyboard
+            that provides context and shows how she would interact with the CVS self-checkout machine:
+          </p>
+          <img src="assets/personas/storyboard.jpeg" width="90%" class="img-thumbnail" />
+          <br />
+          <h4>Conclusion</h4>
+          <p>
+            This project allowed me to practice collecting observations and showed me how
+            difficult it was to create good interview questions. In particular, it was
+            hard to ask unbiased questions that revealed deeper insights.
+          </p>
+          <p>
+            In general, I've learned that it's really important to consider the different
+            contexts in which people use a specific interface and think about how a
+            person's background influences their interactions. This project allowed me to
+            get a better understanding of a user's mental model, become more empathetic,
+            and think about how specific improvements would improve a person's experience.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="project-footer" class="container">
+      <div class="row">
+        <div class="col-12 col-md-9 offset-md-3">
+          <button
+            type="button"
+            id="scrolltop"
+            onclick="topFunction()"
+            class="btn btn-primary"
+          >
+            Go Back to Top
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="button.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"
+  ></script>
+</html>

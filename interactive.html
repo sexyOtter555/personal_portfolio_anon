@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Anonymous Otter</title>
+    <link rel="stylesheet" href="project.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+  </head>
+
+  <body class="text-white">
+    <div id="navigation-bar" class="container sticky-top navbar-light bg-black">
+      <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="index.html"><h5>Anonymous Otter</h5></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#section-options"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="section-options">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">about</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+<div class="container">
+    <div class="row justify-content-md-center">
+      <img src="assets/iterative/iterativeHead.png" width="100%" class="col align-self-center" />
+    </div>
+</div>
+    <div id="project-pg" class="container">
+      <div class="row">
+        <div id="project-summary" class="col-md-3">
+          <h4>CAPSULE Prototype Design</h4>
+          <p>
+            Worked in a team of four to develop a prototype for CAPSULE, a startup that allows users to upload or take a photo of an item to a platform, then receive links 
+            to purchase it.
+           <br><br>The redesigned high-fidelity frames are
+            for viewing <a href="https://www.figma.com/proto/ueyfcHzIOqNaDh4eWByOjz/CS1300-Iterative-Assignment?node-id=123%3A7&scaling=scale-down&page-id=123%3A6&starting-point-node-id=123%3A7">here</a>.
+          </p>
+          <div class="btn btn-outline-primary disabled">Figma</div>
+          <div class="btn btn-outline-primary disabled">User Testing</div>
+          <div class="btn btn-outline-primary disabled">Interactive Prototype</div>
+        </div>
+        <div id="project-descrip" class="col-12 col-md-9">
+          <h4>Introduction</h4>
+          <p>
+            This project focuses on redesigning the mobile app for CAPSULE, a start up AI application 
+            that allows users to upload or take a photo of an item to a platform, then receive links 
+            to purchase this item. When visiting
+            <a href="https://www.shopcapsule.ai/">their website</a>, most of the parts are
+            functional and they are able to get their points across in presenting their
+            home page, interactive photo upload, and providing suggested links based on the search. However, the app
+            is visually disorganized and suffers from a few usability issues. As such, in our redesign,
+            we focus on making the site <b>more user friendly</b>, making elements
+            <b>more intuitive</b>, and simplifying the structure so that information is
+            more readable and <b>more logically grouped</b>.
+          </p>
+          <br />
+          <h4>Analysis</h4>
+          <p>
+            We first began by more closely analyzing the details of the mobile app, focusing
+            on the usability and accessibility concepts that we discussed in class. Our
+            main points are described in more detail below:
+          </p>
+    
+          <b>Usability:</b>
+          <ul>
+            <li>
+              the instruction for uploading photo/taking photo is unclear and hard for users to navigate on the main page
+            </li>
+            <li>
+              the feeds on the main page are disorganized and unclear in their functions and relation to the rest of the frames
+            </li>
+            <li>
+              the search result page has limited information as it only provides the brand and price of the targeted results but not pictures or detailed information, and the horizontal scroll is hard for user navigation
+            </li>
+          </ul>
+          <b>Learnability:</b>
+          <ul>
+            <li>font and icon sizes do not follow specific logic</li>
+            <li>
+              home page feed does not get generated based on user interest or onboarding selection
+            </li>
+            <li>
+              random text placed on top of search result image
+            </li>
+            <li>
+              there is no bottom navbar on the search result page, making it hard for users to navigate to other frames
+            </li>
+            <li>
+              no clear instructions on how to proceed following the search results nor how to tag/favorate the item
+            </li>
+          
+          </ul>
+          <b>Memorability:</b>
+          <ul>
+            <li>
+              grouping and hierarchy do not really make sense in a few places, which
+              makes it difficult to remember the application layout
+            </li>
+            <li>
+              option to take a photo is under the "add a screenshot" top button, which is 
+              confusing and hinders memorability
+            </li>
+            <li>
+              no shortcut for liking an item or selecting an item to proceed without clicking on that item,
+              making it hard to navigate the application within a short time frame and adapting to it
+            </li>
+
+              </ul>
+            </li>
+          </ul>
+          <p>
+            In terms of <b>accessibility</b>, there weren't any apparent visual concerns
+           as the color scheme is black and white. As such, in our redesign, we kept the original
+           color scheme and devote to prioritizing
+            being able to better navigate throughout the application and making
+            instructions more clear.
+          </p>
+          <br />
+
+          <h4>Initial Sketches</h4>
+          <p>
+            Featured below are some of our initial sketches, which generally focus on the
+            design of three main screens: a home screen featuring how to get started, an
+            upload screen with interactive options to take/upload photos, and a result screen.
+          </p>
+          <img
+            src="assets/iterative/sketch.png"
+            class="img-thumbnail img-fluid"
+          />
+          <br />
+          <br />
+
+          <h4>Lo-fi Wireframes</h4>
+          <p>
+            Based on the usability problems identified in the previous section, we first
+            created some mockups for our redesign while trying to keep as many of the
+            original elements as possible. 
+          </p>
+          <div class="img-container">
+            <img src="assets/iterative/lowfi.png" width="80%" class="img-thumbnail" />
+          </div>
+          <br />
+          <ol>
+            <li>
+              To increase efficiency and usability, we changed the instruction on the top to be
+              "find item now" and moved it to the bottom. This creates a
+              <b>clearer description of purpose</b> of the button's functionality. This
+              mockup also keeps the search bar fixed at the bottom, making it
+              <b>easy to access</b> while browsing. The main page feed was replaced
+              by buttons with clear descriptions, making the point of each section
+              <b>more readable</b> and increasing
+              learnability. Other functionalities like setting or personal information are removed 
+              from the bottom and collapsed into a clickable hamburger
+              button to prevent clutter and increase space efficiency.
+            </li>
+            <li>
+              Combined the photo taking and upload interfaces into one page with options to "take photo" or 
+              "upload my own" with relevant icons, which makes the interface <b>more standard</b> and
+              <b>more learnable</b> by providing clearer instructions. Keeping the top navbar througout all frames should also
+              <b>increase adaptability and memorability</b> and provide easier navigation.
+            </li>
+            <li>
+              The search result page is redesigned to contain the search image, and a list of results found
+              with photos of each item, descriptions, and links to each.
+              This creates a <b>more logical</b> flow of user experience, and provides an option to filter the searched result which
+              increases <b>usability</b>. Users can filter based on price, relevance, or other categories, making the app more <b>interactive</b>.
+            
+            </li>
+           
+            <li>
+              Finally, we added a "welcome back" section on the top of the home screen, increasing user <b>memorability</b> and allows
+              more interactiveness with the app.
+            </li>
+          </ol>
+          <br />
+          <h4>Hi-fi Prototyping</h4>
+          <p>
+            Next, we produced a <a href="https://www.figma.com/proto/ueyfcHzIOqNaDh4eWByOjz/CS1300-Iterative-Assignment?node-id=1%3A23&scaling=scale-down&page-id=2%3A21&starting-point-node-id=1%3A23">first version hifi prototype </a> on Figma for mobile screens.
+          </p>
+          <div class="img-container">
+            <img src="assets/iterative/highfiv1.png" width="100%" class="img-thumbnail" />
+          </div>
+          <br />
+          <br />
+          <h4>Mockup Critique</h4>
+          <p>
+            After constructing the first version of the hi-fi prototypes, we contacted senior UIUX experts to provide feebacks 
+            and the following is a summary of their ideas:
+          </p>
+        
+          <ul>
+            <li>In the home page, the "FIND ITEM" verbiage was not conducive to what the button was trying to do</li>
+            <li>Allow for accessibility to take/upload a picture no matter where they are in the app (like TikTok's plus button at the bottom bar)</li>
+            <li>The icons on the navbar should change color when the user is actively on that page. For example, the home page icon would be a different color when the users are on the home page of the app.</li>
+            <li>The save button is slightly too small to easily press on it in the mobile screen.</li>
+          </ul>
+         
+          <br />
+          <p>
+            Then, based on the feedbacks we received, we created a <a href="https://www.figma.com/proto/ueyfcHzIOqNaDh4eWByOjz/CS1300-Iterative-Assignment?node-id=123%3A7&scaling=scale-down&page-id=123%3A6&starting-point-node-id=123%3A7">second version hifi prototype </a> :
+          </p>
+
+          <div class="img-container">
+            <img src="assets/iterative/highfiv2.png" width="100%" class="img-thumbnail" />
+          </div>
+          
+          <br />
+          <h4>Conclusion</h4>
+          <p>
+            
+            This project challenged my ability to identify design problems online and
+            critically think about possible improvements. I gained a lot of valuable
+            insight regarding the importance of accessibility and saw first-hand how much
+            of the applications aren't well-designed for everyone to use.
+          </p>
+          <p>
+            I also gained more knowledge about the design process itself. While it was
+            time consuming to analyze each element and go through the various different
+            wireframes, those steps helped build a more thoughtful design. I realized how
+            useful Balsamiq and Figma are in terms of serving great applications to help make,
+            visualize, and test designs prior to implementations and will make sure to leverage on these
+            valuable tools in my future developments.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="project-footer" class="container">
+      <div class="row">
+        <div class="col-12 col-md-9 offset-md-3">
+          <button
+            type="button"
+            id="scrolltop"
+            onclick="topFunction()"
+            class="btn btn-primary"
+          >
+            Go Back to Top
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="button.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"
+  ></script>
+</html>

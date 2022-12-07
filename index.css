@@ -1,0 +1,136 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  padding-top: 60px;
+  overflow-y: scroll;
+  background-color: black !important;
+}
+
+.navbarName {
+  font-size: 30px;
+}
+.intro-header {
+  font-size: xx-large;
+
+}
+
+.wrapper {
+  position: relative;
+  z-index: 2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  max-width: 1234px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 64px;
+  padding-left: 64px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  background-color: transparent;
+}
+
+.div-block-12 {
+  display: flex;
+  height: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  align-items: flex-start;
+}
+.hero-v1-section {
+  position: relative;
+  overflow: hidden;
+  height: 80vh;
+}
+
+
+.intro-subtitle {
+  font-size: x-large;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold !important;
+  color: white !important;
+}
+
+#personal-blurb {
+  text-align: left;
+  color: white!important;
+}
+
+#down-arrow {
+  font-size: xx-large;
+  font-weight: bold;
+  background-color: black;
+
+}
+
+#down-arrow:hover {
+  text-decoration: none;
+  color: white !important;
+}
+
+#project-grid {
+  padding-top: 60px;
+}
+#personal-info {
+  padding-top: 60px;
+}
+.project-thumbnail {
+  position: relative;
+  max-width: 100%;
+}
+.project-thumbnail:hover .overlay {
+  opacity: 1;
+}
+.overlay {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.overlay-text {
+  width: 75%;
+  color: white;
+  text-align: center;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.navbar-nav .active {
+  background-color:rgb(48, 178, 229);
+}
+
+nav .navbar-nav li a{
+  color: white !important;
+  }
+
