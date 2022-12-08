@@ -55,3 +55,20 @@ html {
 nav .navbar-nav li a{
   color: white !important;
   }
+
+#navigation-bar {
+  background-color: black !important;     
+}
+
+
+.btn {
+  color: white !important;
+  background-color: black !important;
+  
+}
+
+.btn-primary {
+  color:white !important;
+}
+
+
