@@ -2,7 +2,7 @@ body {
   font-family: 'PT Sans', sans-serif;
   padding-top: 60px;
   overflow-y: scroll;
-  background-color:black !important;
+  background-color:#0e141b !important;
 }
 
 .navbarName {
@@ -57,13 +57,13 @@ nav .navbar-nav li a{
   }
 
 #navigation-bar {
-  background-color: black !important;     
+  background-color: #0e141b !important;     
 }
 
 
 .btn {
   color: white !important;
-  background-color: black !important;
+  background-color: #0e141b !important;
   
 }
 
@@ -72,3 +72,11 @@ nav .navbar-nav li a{
 }
 
 
+.navbar .navbar-toggler {
+  color: white !important;
+}
+
+.navbar-toggler-icon {
+  color: white !important;
+  border-color: white !important;
+}
